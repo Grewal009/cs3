@@ -25,7 +25,7 @@ public class MyClass
         return $"Name: {Name} \n Value: {Val}";
     }
 
-    //private MyClass() : this("Default Name") { }
+    private MyClass() : this("Default Name") { }
     public MyClass(string newName)
     {
         Name = newName;
